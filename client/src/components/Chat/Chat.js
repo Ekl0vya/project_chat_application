@@ -6,10 +6,9 @@ import TextContainer from '../TextContainer/TextContainer';
 import Messages from '../Messages/Messages';
 import InfoBar from '../InfoBar/InfoBar';
 import Input from '../Input/Input';
-
 import './Chat.css';
 
-const ENDPOINT = 'http://localhost:5000';
+const ENDPOINT="http://localhost:5001";
 
 let socket;
 
